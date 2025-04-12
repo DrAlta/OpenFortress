@@ -1,6 +1,6 @@
 use bevy::prelude::*;
 
-use assets::plant_data::PlantData;
+use resources::plant_data::PlantData;
 
 use crate::Plant;
 

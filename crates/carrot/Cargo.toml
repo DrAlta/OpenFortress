@@ -8,4 +8,5 @@ bevy = { workspace = true }
 animation = { path = "../animation" }
 assets = { path = "../assets" }
 common = { path = "../common" }
+resources = { path = "../resources" }
 work = { path = "../work" }

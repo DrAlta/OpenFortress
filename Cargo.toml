@@ -24,6 +24,7 @@ leafwing-input-manager = { git = "https://github.com/Leafwing-Studios/leafwing-i
 [dependencies]
 animation = { path = "crates/animation"}
 assets = { path = "crates/assets"}
+resources = { path = "crates/resources" }
 common = { path = "crates/common"}
 loading_screen = { path = "crates/loading_screen"}
 main_game = { path = "crates/main_game" }

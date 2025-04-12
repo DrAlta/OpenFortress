@@ -1,0 +1,9 @@
+[package]
+name = "resources"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { workspace = true }
+bevy_common_assets = { version = "0.12.0", features = ["json"] }
+serde = { version = "1.0.219", features = ["serde_derive"] }

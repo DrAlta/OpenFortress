@@ -1,0 +1,1 @@
+This handles loading resources from assets. This is because the asset is discarded after the data in put into tthe resource(after processing it which is why we don't just use the asset directly).

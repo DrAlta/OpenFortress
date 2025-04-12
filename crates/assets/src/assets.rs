@@ -17,7 +17,8 @@ pub fn plugin(app: &mut App) {
         .load_resource::<TilesetAsset>()
         .load_resource::<SoundAsset>()
         .load_resource::<UiPanelAsset>()
-        .add_systems(PreUpdate, load_resource_assets);
+        .add_systems(PreUpdate, load_resource_assets)
+    ;
 }
 
 trait LoadResource {

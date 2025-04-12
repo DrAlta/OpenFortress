@@ -2,7 +2,7 @@ use std::sync::{Arc, OnceLock};
 
 use bevy::prelude::*;
 
-use assets::plant_data::PlantTypeId;
+use resources::plant_data::PlantTypeId;
 use common::traits::AddNamedObserver;
 
 mod plant;
